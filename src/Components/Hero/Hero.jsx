@@ -1,5 +1,6 @@
 import React from 'react'
-import profile  from '../../assets/profile.jpg';
+import './Hero.css'
+import profile  from '../../assets/profile1.jpg';
 const Hero = () => {
   return (
     <div className='hero'>
