@@ -9,17 +9,13 @@
     margin: 80px 17px;
 }
 
-
-
-
-
 .about-title img{
 
     width: 400px;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     right: 0;
-    z-index: -1;
+    z-index: -1; */
 }
 
 .about-title{
@@ -33,3 +29,19 @@ position: relative;
 
 }
 
+.about-right{
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.about-para{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
