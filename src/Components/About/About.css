@@ -16,15 +16,20 @@
 .about-title img{
 
     width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .about-title{
-padding: 0px 30px;
-font-size: 80px;
-font-weight: 600;
-
+position: relative;
 }
 .about-title h1{
 
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
 
 }
+
